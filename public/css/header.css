@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav_section{
+    width: 100%;
+    height: 75px;
+    background: #011117;
+    border-bottom: 2px solid #02141b;
+    box-shadow: 0 0.5px 20px #01141b;
+}
+.navbar_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Logo Section Styling */
+.logo_section{
+    display: flex;
+    align-items: center;
+}
+.logo_link{
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #fc00ff;
+    opacity: 0.9;
+}
+.logo_link:hover{
+    color: #fc00ff;
+}
+.logo_link span{
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #999999;
+}
+
+
+/* Nav Items Section Styling */
+.nav_items_icon{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.nav_items_section{
+    width: 100%;
+    height: auto;
+}
+.nav_items{
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+}
+.nav_items .link{
+    font-size: 1.29rem;
+    letter-spacing: 0.09rem;
+    color: #bcbcbc;
+}
+.nav_items .link:hover,
+.nav_items .active{
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-image: linear-gradient(0.25turn rgba(255, 0, 128), #00dbde);
+    border-image-slice: 1;
+    width: 100%;
+}
+
+/* Toggle Icon Button */
+.toggleIcon{
+    font-size: 1.3rem;
+    color: #bcbcbc;
+    display: none;
+}
+
+/* Max width 1048px only */
+@media (max-width: 1048px) {
+    .nav_items .link{
+        font-size: 1.19rem;
+    }
+    
+}
+
+/* Max width 915px only */
+@media (max-width: 1048px) {
+    .nav_items_section .nav_items{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(1, 17, 23, 0.88);
+        backdrop-filter: blur(7px);
+        -webkit-backdrop-filter: blur(7px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s ease-out;
+        z-index: 9999;
+    }
+    .nav_items_section li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .toggleIcon{
+        display: block;
+    }
+    .nav_items .link{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .nav_items_section ul.showNavbar{
+        left: 0;
+    }
+
+   
+}
+
+
