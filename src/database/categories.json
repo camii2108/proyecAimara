@@ -1,0 +1,14 @@
+[
+    {
+        "id" : 1,
+        "name" : "Piercing",
+        "code" : "Piercing",
+        "image": "cat_1.jpg"
+    },
+    {
+        "id" : 2,
+        "name" : "Tatoo",
+        "code" : "Tatoo",
+        "image": "cat_artistica.jpg"
+    }
+]

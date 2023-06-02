@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Labret:",
+      "price": "1500",
+      "discount": "10",
+      "category": "1",
+      "subcategory": "Boca",
+      "image": ["labret.jpg"],
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Side labret:",
+      "price": "1500",
+      "discount": "10",
+      "category": "1",
+      "subcategory": "Boca",
+      "image": ["sideLabret_2.jpg"],
+      "description": "Cuidados: cicatrización ( 1-3 meses)\r\n•lavar tu piercing 1-2 veces al dia \r\n• no duermas sobre el piercing"
+    },
+    {
+      "id": 3,
+      "name": "Barra industrial",
+      "price": "1500",
+      "discount": "10",
+      "category": "1",
+      "subcategory": "Oreja",
+      "image": ["barraIndustrial.png"],
+      "description": "Cuidados : cicatrización (entre 6 y9 meses) \r\n•  lavar tu piercing 1 2 veces al dia \r\n• no duermas sobre el piercing \r\n• intentar tener el pelo recogido"
+    },
+    {
+      "id": 4,
+      "name": "Smile",
+      "price": "1500",
+      "discount": "10",
+      "category": "1",
+      "subcategory": "Boca",
+      "image": ["smile.jpg"],
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Nostril: ",
+      "price": "700",
+      "description": "Cuidados: cicatrización ( 3-4 semanas )\r\n•lavar tu piercing 1 2 veces al dia \r\n• no duermas sobre el piercing\r\n",
+      "discount": "20",
+      "category": "1",
+      "subcategory": "Nariz",
+      "image": ["Nostril.png"]
+    },
+    {
+      "id": 6,
+      "name": "Septum:",
+      "price": "60",
+      "description": "Cuidados :cicatrización ( 4-6 semanas )\r\n•lavar tu piercing 1 2 veces al dia \r\n• no duermas sobre el piercing",
+      "discount": "20",
+      "category": "1",
+      "subcategory": "Nariz",
+      "image": ["Septum.png"]
+    },
+    {
+      "id": 7,
+      "name": "Helix : ",
+      "price": "80",
+      "description": "Cuidados:cicatrización (entre 3-6 meses)\r\n•  lavar tu piercing 1 2 veces al dia \r\n• no duermas sobre el piercing \r\n• intentar tener el pelo recogido",
+      "discount": "20",
+      "category": "1",
+      "subcategory": "Oreja",
+      "image": ["helix.png"]
+    },
+    {
+      "id": 8,
+      "name": "Tragus",
+      "price": "1500",
+      "description": "Cuidados: cicatrización (entre 3-6 meses)\r\n•  lavar tu piercing 1 2 veces al dia \r\n• no duermas sobre el piercing \r\n• intentar tener el pelo recogid",
+      "discount": "",
+      "category": "1",
+      "subcategory": "Oreja",
+      "image": ["Tragus.png"]
+    },
+    {
+      "id": 9,
+      "name": "Rook: ",
+      "price": "1000",
+      "description": "Cuidados;cicatrización (entré 3-5 semanas)\r\n•  lavar tu piercing 1 2 veces al dia \r\n• no duermas sobre el piercing \r\n• intentar tener el pelo recogido",
+      "discount": "",
+      "category": "1",
+      "subcategory": "Oreja",
+      "image": ["Rook.png"]
+    }
+  ]
+  
